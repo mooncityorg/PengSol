@@ -1,8 +1,8 @@
 import { FC } from "react";
 
-export const TwitterIcon = () => {
+export const TwitterIcon = (props:any) => {
   return (
-    <svg width="104" height="74" viewBox="0 0 104 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg {...props} viewBox="0 0 104 74" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_1_2)">
         <path
           d="M75.693 2.69831C58.7471 0.3996 43.4307 10.1764 41.4829 24.5353C39.5351 38.8943 51.6935 52.398 68.6394 54.6967C85.5853 56.9954 100.902 47.2186 102.849 32.8597C104.797 18.5007 92.6389 4.99701 75.693 2.69831Z"
@@ -31,9 +31,9 @@ export const TwitterIcon = () => {
   );
 };
 
-export const TelegramIcon = () => {
+export const TelegramIcon = (props:any) => {
   return (
-    <svg width="104" height="74" viewBox="0 0 104 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg {...props} viewBox="0 0 104 74" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g clip-path="url(#clip0_1_2)">
     <path
       d="M75.693 2.69831C58.7471 0.399607 43.4307 10.1764 41.4829 24.5353C39.5351 38.8943 51.6935 52.398 68.6394 54.6967C85.5853 56.9954 100.902 47.2186 102.849 32.8597C104.797 18.5007 92.6389 4.99702 75.693 2.69831Z"
@@ -77,9 +77,9 @@ export const DiscordIcon = () => {
   );
 };
 
-export const Instagram = () => {
+export const InstagramIcon = (props:any) => {
   return (
-    <svg width="104" height="74" viewBox="0 0 104 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg {...props} viewBox="0 0 104 74" fill="none" xmlns="http://www.w3.org/2000/svg">
       <ellipse cx="72.1662" cy="28.6975" rx="30.9643" ry="26.2373" transform="rotate(-172.275 72.1662 28.6975)"
         fill="white" />
       <ellipse cx="59.9155" cy="46.7395" rx="30.9643" ry="26.2373" transform="rotate(-172.275 59.9155 46.7395)"
