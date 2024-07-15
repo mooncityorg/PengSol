@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { DiscordIcon, Instagram, TelegramIcon, TwitterIcon } from "./Icons";
+import { DiscordIcon, InstagramIcon, TelegramIcon, TwitterIcon } from "./Icons";
 import Image from "next/image";
 
 export default function Roadmap() {
