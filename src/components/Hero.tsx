@@ -10,20 +10,20 @@ const Hero: FC = () => {
   return (
     <section className="min-h-[800px] 2xl:min-h-[calc(100vh-40px)] relative pb-[120px] z-20">
       <div className="flex items-center justify-center md:justify-start gap-2 lg:gap-6 px-10 relative z-20">
-        <div className="flex">
+        <div className="flex gap-2 mt-2 md:mt-4">
           <Link href={"https://x.com/"} target="_blank">
             <div className=" grid place-content-center">
-              <TwitterIcon width={100} height={100} />
+              <TwitterIcon className="w-[80px] md:w-[120px]" />
             </div>
           </Link>
           <Link href={"https://t.me/"} target="_blank">
             <div className="hover:scale-110 grid place-content-center">
-              <TelegramIcon width={100} height={100}/>
+              <TelegramIcon className="w-[80px] md:w-[120px]"/>
             </div>
           </Link>
           <Link href={"#"} target="_blank">
             <div className="hover:scale-110 grid place-content-center">
-              <InstagramIcon width={100} height={100}/>
+              <InstagramIcon className="w-[80px] md:w-[120px]"/>
             </div>
           </Link>
         </div>
