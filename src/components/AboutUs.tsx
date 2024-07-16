@@ -18,7 +18,7 @@ export default function AboutUs() {
           </p>
         </div>
         <div className="relative h-[400px] aspect-[337/420]">
-          <Image src="/media/bear_house.webp" fill className="rounded-md" alt="" />
+          <Image src="/media/bear_house.webp" fill className="rounded-md border-4 border-gray-800" alt="" />
         </div>
       </div>
     </section>

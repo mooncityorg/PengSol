@@ -14,7 +14,7 @@ export default function Footer() {
             <h2>@ 2024 POPO. PolarBear.</h2>
           </div>
           <div className=" text-center md:w-[30%] w-[70%] md:my-0 my-4">
-            <p>$PENG WAS MADE FOR A FAN AND HAS NO VALUE. DON’T RISK MONEY YOU ARE AFRAID OF LOSING. THE PRICE MAY GO UP OR IT MAY GO DOWN. WE ARE NOT RESPONSIBLE FOR THE PRICE OF THE TOKEN.</p>
+            <p>$POPO WAS MADE FOR A FAN AND HAS NO VALUE. DON’T RISK MONEY YOU ARE AFRAID OF LOSING. THE PRICE MAY GO UP OR IT MAY GO DOWN. WE ARE NOT RESPONSIBLE FOR THE PRICE OF THE TOKEN.</p>
           </div>
           <div className="flex items-end justify-center md:w-[25%] w-[70%]">
             <h2 className="text-lg">$POPO on Solana</h2>
