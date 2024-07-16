@@ -1,21 +1,17 @@
-import CapSection from "@/components/CapSection";
 import Features from "@/components/Features";
+import AboutUs from "@/components/AboutUs";
 import Hero from "@/components/Hero";
-import Intro from "@/components/Intro";
-import MovingBar from "@/components/MovingBar";
-import Roadmap from "@/components/Roadmap";
-import Socials from "@/components/Socials";
 import Tokenomics from "@/components/Tokenomics";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      {/* <CapSection />
-      <Roadmap />
+      <AboutUs />
       <Tokenomics />
       <Features />
-      <Socials /> */}
+      <Footer />
     </main>
   );
 }

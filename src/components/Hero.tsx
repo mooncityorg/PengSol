@@ -2,7 +2,6 @@
 import Link from "next/link";
 import React, { FC } from "react";
 import { DiscordIcon, InstagramIcon, TelegramIcon, TwitterIcon } from "./Icons";
-import MovingBar from "./MovingBar";
 import FootPrint from "./FootPrint";
 import Image from "next/image";
 
@@ -27,11 +26,7 @@ const Hero: FC = () => {
             </div>
           </Link>
         </div>
-        {/* <div className="relative">
-          <button className="rounded-full w-[120px] md:w-[300px] h-[60px] bg-[#ffde68] border-2 border-[#19334a] md:px-8 py-4 z-10 shadow-[#19334a] shadow-release hover:shadow-hover transition">
-            LABORATORY
-          </button>
-        </div> */}
+        
       </div>
 
       <div className="relative justify-center w-full aspect-video">
@@ -55,7 +50,7 @@ const Hero: FC = () => {
           <Image src="/media/footprint_white.png" fill alt="" />
         </div>
         <h1 className="relative text-[100px] text-white text-center z-[1]">
-          PoPo
+          POPO
         </h1>
         <div className="relative w-[300px] md:w-[480px] aspect-[8/15] mx-auto z-[3]">
           <Image
