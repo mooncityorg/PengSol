@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="relative w-full aspect-[16/5] mt-12">
-        <Image src="/media/footer.png" fill alt=""/>
+        <Image src="/media/footer_pic.png" fill alt=""/>
       </div>
       <div className="bg-white w-full text-[#19334a]">
         <div className="flex flex-col md:flex-row px-8 items-center md:justify-between pb-8">
