@@ -10,12 +10,12 @@ const Hero: FC = () => {
     <section className="min-h-[800px] 2xl:min-h-[calc(100vh-40px)] relative pb-[120px] z-20">
       <div className="flex items-center justify-center md:justify-start gap-2 lg:gap-6 px-10 relative z-20">
         <div className="flex gap-2 mt-2 md:mt-4">
-          <Link href={"https://x.com/"} target="_blank">
+          <Link href={"https://x.com/icypopo?s=21&t=Cin8PdW-kdVFKSGuW2kSPw"} target="_blank">
             <div className="hover:scale-110 grid place-content-center">
               <TwitterIcon className="w-[80px] md:w-[120px]" />
             </div>
           </Link>
-          <Link href={"https://t.me/"} target="_blank">
+          <Link href={"https://t.me/icypoposol"} target="_blank">
             <div className="hover:scale-110 grid place-content-center">
               <TelegramIcon className="w-[80px] md:w-[120px]" />
             </div>
